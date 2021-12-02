@@ -1,10 +1,9 @@
-echo "Check whether the no is given is positive or negative or zero"
-echo "Read n1"
-read n1
-if [ $n1 -gt 0 ] 
+echo "Enter a number"
+read n
+if [ $n -gt 0 ] 
 then
 	echo "Positve"
-elif [ $n1 -lt 0 ] 
+elif [ $n -lt 0 ] 
 then
 	echo "Negative"
 else
