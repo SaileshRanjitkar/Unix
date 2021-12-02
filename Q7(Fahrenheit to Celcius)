@@ -1,5 +1,6 @@
-echo "Enter the temperatire in fahrenheit"
+echo "Enter Temp in [F]"
 read f
 x=`expr $f - 32`
+# {{{or x=`echo "$f - 32" | bc`}}}
 c=`echo "$x * 0.55" | bc`
 echo "$f in Fahrenheit = $c in Celcius"
