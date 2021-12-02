@@ -1,4 +1,4 @@
-echo "Enter radius: "
+echo "Enter Radius = "
 read r
 echo "Area = "
 echo  "3.14 * $r * $r" | bc
